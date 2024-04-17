@@ -200,7 +200,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.User_ID))(Post_User_Form.sourceData, Post_User_Form.formData, Post_User_Form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Post_User_Form.sourceData, Post_User_Form.formData, Post_User_Form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "User_ID",
                 "isVisible": true,
                 "label": "User ID",
@@ -211,8 +211,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 148,
+                "fieldType": "Number Input"
             },
             "User_Type": {
                 "labelTextSize": "0.875rem",
