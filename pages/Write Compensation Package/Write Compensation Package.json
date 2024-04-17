@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Katie Brown",
-    "slug": "katie-brown",
+    "name": "Write Compensation Package",
+    "slug": "write-compensation-package",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2300,
+          "bottomRow": 890,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,24 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Katie Brown_All_Compensation_Packages",
+              "id": "Write Compensation Package_All_Compensation_Packages",
               "name": "All_Compensation_Packages",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Katie Brown_Questions",
-              "name": "Questions",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Katie Brown_Reviews",
-              "name": "Reviews",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -55,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Katie Brown",
+        "id": "Write Compensation Package",
         "deleted": false,
         "policies": [],
         "userPermissions": []
