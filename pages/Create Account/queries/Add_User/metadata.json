@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Welcome Page",
+    "pageId": "Create Account",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -62,7 +62,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T16:52:57Z"
   },
-  "id": "Welcome Page_Add_User",
+  "id": "Create Account_Add_User",
   "deleted": false,
   "gitSyncId": "661ffa7c1b241c7689c01b99_661ffe691b241c7689c01bc6"
 }

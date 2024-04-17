@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Welcome Page",
-    "slug": "welcome-page",
+    "name": "Create Account",
+    "slug": "create-account",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Welcome Page_User_Table",
+              "id": "Create Account_User_Table",
               "name": "User_Table",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Welcome Page",
+        "id": "Create Account",
         "deleted": false,
         "policies": [],
         "userPermissions": []
