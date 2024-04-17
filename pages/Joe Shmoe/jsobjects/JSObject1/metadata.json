@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Joe Shmoe",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Joe Shmoe_JSObject1",
+  "deleted": false,
+  "gitSyncId": "662028417a24cf6d1d75c27f_662042fb7a24cf6d1d75c307"
+}
