@@ -1,0 +1,7 @@
+{"Content":"{{Update_Review.formData.Content}}",
+ "Date": "{{Update_Review.formData.Date}}",
+ "Rating": "{{Update_Review.formData.Rating}}",
+ "Position_ID": "{{Update_Review.formData.Position_ID}}",
+ "SkillsUsed": "{{Update_Review.formData.SkillsUsed}}",
+ "Title": "{{Update_Review.formData.Title}}",
+ "User_ID": "{{Update_Review.formData.User_ID}}"}

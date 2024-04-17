@@ -19,6 +19,10 @@
     {
       "id": "Write a Review",
       "isDefault": false
+    },
+    {
+      "id": "Update Review",
+      "isDefault": false
     }
   ],
   "viewMode": false,
