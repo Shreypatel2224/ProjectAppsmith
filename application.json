@@ -11,6 +11,10 @@
     {
       "id": "Create Account",
       "isDefault": false
+    },
+    {
+      "id": "Create Review",
+      "isDefault": false
     }
   ],
   "viewMode": false,
