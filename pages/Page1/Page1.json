@@ -29,16 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_GetUsers",
-              "name": "GetUsers",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Page1_GetQuestions",
               "name": "GetQuestions",
               "confirmBeforeExecute": false,
@@ -49,6 +39,14 @@
             {
               "id": "Page1_GetReviews",
               "name": "GetReviews",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_GetUsers",
+              "name": "GetUsers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
