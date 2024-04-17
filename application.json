@@ -7,6 +7,10 @@
     {
       "id": "Lebron Jordan",
       "isDefault": false
+    },
+    {
+      "id": "Welcome Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,
