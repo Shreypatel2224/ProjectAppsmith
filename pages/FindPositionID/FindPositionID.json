@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Lebron Jordan",
-    "slug": "lebron-jordan",
+    "name": "FindPositionID",
+    "slug": "findpositionid",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,17 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Lebron Jordan_GetQuestions",
-              "name": "GetQuestions",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Lebron Jordan_GetReviewByPosition",
+              "id": "FindPositionID_GetReviewByPosition",
               "name": "GetReviewByPosition",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -51,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Lebron Jordan",
+        "id": "FindPositionID",
         "deleted": false,
         "policies": [],
         "userPermissions": []
