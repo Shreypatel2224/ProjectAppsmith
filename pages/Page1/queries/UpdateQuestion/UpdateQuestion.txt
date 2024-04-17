@@ -1,5 +1,0 @@
-{"Content":"{{Question_Form.formData.Content}}",
-"Date": "{{Question_Form.formData.Date}}",
-"Title": "{{Question_Form.formData.Title}}",
-"Status": "{{Question_Form.formData.Rating}}",
-"User_ID":"{{Question_Form.formData.User_ID}}"}
