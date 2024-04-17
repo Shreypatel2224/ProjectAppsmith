@@ -31,6 +31,14 @@
     {
       "id": "Joe Shmoe",
       "isDefault": false
+    },
+    {
+      "id": "Lebron Jordan",
+      "isDefault": false
+    },
+    {
+      "id": "Katie Brown",
+      "isDefault": false
     }
   ],
   "viewMode": false,
