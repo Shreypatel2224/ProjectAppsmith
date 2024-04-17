@@ -1,0 +1,6 @@
+{"Perks" : "{{CP_Form.formData.Perks}}",
+ "Hourly": "{{CP_Form.formData.Hourly}}",
+ "BonusTotal": "{{CP_Form.formData.BonusTotal}}",
+ "HousingTotal": "{{CP_Form.formData.HousingTotal}}",
+ "RelocationTotal" : "{{CP_Form.formData.RelocationTotal}}",
+ "Position_ID" : "{{CP_Form.formData.Position_ID}}"}
