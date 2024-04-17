@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "Page1",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "FindPositionID",
@@ -39,6 +39,10 @@
     {
       "id": "Katie Brown",
       "isDefault": false
+    },
+    {
+      "id": "Home Page",
+      "isDefault": true
     }
   ],
   "viewMode": false,
