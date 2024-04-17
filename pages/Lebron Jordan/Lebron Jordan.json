@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 450,
+          "bottomRow": 730,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -26,6 +26,16 @@
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
+          [
+            {
+              "id": "Lebron Jordan_GetQuestions",
+              "name": "GetQuestions",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
           [
             {
               "id": "Lebron Jordan_GetReviewByPosition",
