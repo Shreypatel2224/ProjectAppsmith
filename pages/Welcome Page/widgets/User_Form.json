@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.7df6f087cceba86a9a5481b6c7f4871d.svg",
-    "onSubmit": "{{Add_User.run().then(() => {\n  User_Table.run();\n});}}",
+    "onSubmit": "{{Add_User.run().then(() => {\n  User_Table.run();\n  showAlert('User Sucessfully added!', 'success');\n});}}",
     "topRow": 8,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
