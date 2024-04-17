@@ -12,12 +12,12 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.Answer_ID.computedValue"},
         {"key": "primaryColumns.Content.computedValue"},
         {"key": "primaryColumns.Date.computedValue"},
         {"key": "primaryColumns.Question_ID.computedValue"},
-        {"key": "primaryColumns.User_ID.computedValue"}
+        {"key": "primaryColumns.User_ID.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -60,6 +60,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1713394514580,
+    "originalBottomRow": 99,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 98,
@@ -256,6 +257,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 71,
     "mobileLeftColumn": 13,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
