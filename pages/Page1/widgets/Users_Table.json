@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 10,
+    "topRow": 2,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -20,7 +20,7 @@
         {"key": "primaryColumns.Username.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 3,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -59,11 +59,11 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713338849582,
+    "columnUpdatedAt": 1713343190033,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 38,
-    "widgetName": "Table1",
+    "widgetName": "Users_Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "Email",
@@ -74,8 +74,11 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 43,
-    "columnWidthMap": {},
+    "bottomRow": 35,
+    "columnWidthMap": {
+        "Email": 273,
+        "User_ID": 98
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -84,7 +87,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Email": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
+            "computedValue": "{{Users_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Email\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Email",
@@ -115,7 +118,7 @@
             "verticalAlignment": "CENTER"
         },
         "Username": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
+            "computedValue": "{{Users_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Username\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Username",
@@ -146,7 +149,7 @@
             "verticalAlignment": "CENTER"
         },
         "User_ID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
+            "computedValue": "{{Users_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "User_ID",
@@ -177,7 +180,7 @@
             "verticalAlignment": "CENTER"
         },
         "User_Type": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_Type\"]))}}",
+            "computedValue": "{{Users_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_Type\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "User_Type",
@@ -208,7 +211,7 @@
             "verticalAlignment": "CENTER"
         },
         "Password": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Password\"]))}}",
+            "computedValue": "{{Users_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Password\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Password",
@@ -242,7 +245,7 @@
     "key": "fu5cqyywpa",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 54,
+    "rightColumn": 56,
     "textSize": "0.875rem",
     "widgetId": "pmzz1r66cz",
     "minWidth": 450,
