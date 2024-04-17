@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Question_Answers",
-    "slug": "question-answers",
+    "name": "Find Answers to Questions",
+    "slug": "find-answers-to-questions",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1130,
+          "bottomRow": 980,
           "containerStyle": "none",
           "snapRows": 84,
           "parentRowSpace": 1,
@@ -28,26 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Question_Answers_Answers",
-              "name": "Answers",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Question_Answers_Questions",
+              "id": "Find Answers to Questions_Questions",
               "name": "Questions",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
+          ],
+          [
+            {
+              "id": "Find Answers to Questions_Get_Answers_To_Questions",
+              "name": "Get_Answers_To_Questions",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Questions_Table.selectedRow.Question_ID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Question_Answers",
+        "id": "Find Answers to Questions",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662030421b241c7689c01c0c_66203c061b241c7689c01c28"
+  "gitSyncId": "662030421b241c7689c01c0c_662050e31b241c7689c01c32"
 }

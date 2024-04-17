@@ -9,7 +9,11 @@
       "isDefault": false
     },
     {
-      "id": "Question_Answers",
+      "id": "Add Answers to Questions",
+      "isDefault": false
+    },
+    {
+      "id": "Find Answers to Questions",
       "isDefault": false
     }
   ],

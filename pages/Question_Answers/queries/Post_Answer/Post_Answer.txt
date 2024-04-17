@@ -1,4 +1,0 @@
-{"Question_ID" : "{{Answer_Form.formData.Question_ID}}",
- "Date": "{{Answer_Form.formData.Date}}",
- "Content": "{{Answer_Form.formData.Answer}}",
- "User_ID": "{{Answer_Form.formData.User_ID}}"}

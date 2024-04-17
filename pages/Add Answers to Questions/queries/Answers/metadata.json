@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Post_Answer",
+    "name": "Answers",
     "datasource": {
       "name": "CoopConnect_Data",
       "pluginId": "restapi-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Question_Answers",
+    "pageId": "Add Answers to Questions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -27,9 +27,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"Question_ID\" : \"{{Answer_Form.formData.Question_ID}}\",\n \"Date\": \"{{Answer_Form.formData.Date}}\",\n \"Content\": \"{{Answer_Form.formData.Answer}}\",\n \"User_ID\": \"{{Answer_Form.formData.User_ID}}\"}",
+      "body": "",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -41,28 +41,19 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "Answer_Form.formData.Answer",
-      "Answer_Form.formData.Date",
-      "Answer_Form.formData.Question_ID",
-      "Answer_Form.formData.User_ID"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T21:28:17Z"
+    "createdAt": "2024-04-17T21:25:20Z"
   },
-  "id": "Question_Answers_Post_Answer",
+  "id": "Add Answers to Questions_Answers",
   "deleted": false,
-  "gitSyncId": "662030421b241c7689c01c0c_66203ef11b241c7689c01c2e"
+  "gitSyncId": "662030421b241c7689c01c0c_66203e401b241c7689c01c2c"
 }
