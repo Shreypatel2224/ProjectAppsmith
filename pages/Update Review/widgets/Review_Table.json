@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 75,
+    "topRow": 85,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -23,7 +23,7 @@
         {"key": "primaryColumns.User_ID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 2,
+    "leftColumn": 3,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -62,12 +62,12 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713378892394,
-    "originalBottomRow": 103,
+    "columnUpdatedAt": 1713381618042,
+    "originalBottomRow": 113,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
-    "mobileBottomRow": 71,
-    "widgetName": "Table1",
+    "mobileBottomRow": 74,
+    "widgetName": "Review_Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "Content",
@@ -79,19 +79,19 @@
         "Title",
         "User_ID"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 103,
+    "bottomRow": 113,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 36,
-    "parentColumnSpace": 15.765625,
+    "mobileRightColumn": 37,
+    "parentColumnSpace": 19.390625,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
         "SkillsUsed": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"SkillsUsed\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"SkillsUsed\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "SkillsUsed",
@@ -122,7 +122,7 @@
             "verticalAlignment": "CENTER"
         },
         "Content": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Content",
@@ -153,7 +153,7 @@
             "verticalAlignment": "CENTER"
         },
         "Rating": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Rating\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Rating\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Rating",
@@ -184,7 +184,7 @@
             "verticalAlignment": "CENTER"
         },
         "Review_ID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Review_ID\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Review_ID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Review_ID",
@@ -215,7 +215,7 @@
             "verticalAlignment": "CENTER"
         },
         "Position_ID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Position_ID\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Position_ID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Position_ID",
@@ -246,7 +246,7 @@
             "verticalAlignment": "CENTER"
         },
         "Title": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Title",
@@ -277,7 +277,7 @@
             "verticalAlignment": "CENTER"
         },
         "User_ID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "User_ID",
@@ -308,7 +308,7 @@
             "verticalAlignment": "CENTER"
         },
         "Date": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Date\"]))}}",
+            "computedValue": "{{Review_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Date\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Date",
@@ -339,25 +339,25 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "key": "a6hxfvsv82",
+    "key": "vsapygf1wl",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 63,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "y0elj4d0bk",
+    "widgetId": "i6f9ikwz76",
     "minWidth": 450,
     "tableData": "{{Reviews.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 43,
+    "mobileTopRow": 46,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 75,
-    "mobileLeftColumn": 2,
+    "originalTopRow": 85,
+    "mobileLeftColumn": 3,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

@@ -13,11 +13,15 @@
       "isDefault": false
     },
     {
-      "id": "Create Review",
+      "id": "Find Review",
       "isDefault": false
     },
     {
       "id": "Write a Review",
+      "isDefault": false
+    },
+    {
+      "id": "Update Review",
       "isDefault": false
     }
   ],

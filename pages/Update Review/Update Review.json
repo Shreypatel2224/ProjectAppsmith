@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Create Review",
-    "slug": "create-review",
+    "name": "Update Review",
+    "slug": "update-review",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 1130,
           "containerStyle": "none",
           "snapRows": 77,
           "parentRowSpace": 1,
@@ -28,30 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Create Review_Reviews",
+              "id": "Update Review_Reviews",
               "name": "Reviews",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
-          ],
-          [
-            {
-              "id": "Create Review_Api1",
-              "name": "Api1",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Review_Search.formData.Position_ID"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Create Review",
+        "id": "Update Review",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -62,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ffa7c1b241c7689c01b99_66200e0e1b241c7689c01bd8"
+  "gitSyncId": "661ffa7c1b241c7689c01b99_662020891b241c7689c01bec"
 }
