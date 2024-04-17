@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Create Review",
+    "pageId": "Find Review",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -53,7 +53,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T17:59:58Z"
   },
-  "id": "Create Review_Reviews",
+  "id": "Find Review_Reviews",
   "deleted": false,
   "gitSyncId": "661ffa7c1b241c7689c01b99_66200e1e1b241c7689c01bda"
 }

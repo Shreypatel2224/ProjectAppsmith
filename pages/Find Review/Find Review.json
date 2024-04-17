@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Create Review",
-    "slug": "create-review",
+    "name": "Find Review",
+    "slug": "find-review",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Create Review_Reviews",
+              "id": "Find Review_Reviews",
               "name": "Reviews",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -38,7 +38,7 @@
           ],
           [
             {
-              "id": "Create Review_Api1",
+              "id": "Find Review_Api1",
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -51,7 +51,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Create Review",
+        "id": "Find Review",
         "deleted": false,
         "policies": [],
         "userPermissions": []
