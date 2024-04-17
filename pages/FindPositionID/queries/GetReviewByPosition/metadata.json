@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Lebron Jordan",
+    "pageId": "FindPositionID",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T10:52:37Z"
   },
-  "id": "Lebron Jordan_GetReviewByPosition",
+  "id": "FindPositionID_GetReviewByPosition",
   "deleted": false,
   "gitSyncId": "661f789536fe3a4cc77495b4_661fa9f5cd190e3cff58f7ab"
 }

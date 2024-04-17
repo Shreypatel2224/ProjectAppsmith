@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Lebron Jordan",
+    "pageId": "FindPositionID",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,7 +35,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -47,7 +47,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T20:37:41Z"
   },
-  "id": "Lebron Jordan_GetQuestions",
+  "id": "FindPositionID_GetQuestions",
   "deleted": false,
   "gitSyncId": "661f789536fe3a4cc77495b4_66203315cd190e3cff58f7f1"
 }
