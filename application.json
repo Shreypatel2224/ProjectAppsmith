@@ -7,6 +7,10 @@
     {
       "id": "Lebron Jordan",
       "isDefault": false
+    },
+    {
+      "id": "Create Account",
+      "isDefault": false
     }
   ],
   "viewMode": false,
