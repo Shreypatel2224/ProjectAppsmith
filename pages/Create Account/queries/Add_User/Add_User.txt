@@ -1,0 +1,4 @@
+{"Email":"{{User_Form.formData.Email}}",
+ "Password": "{{User_Form.formData.Password}}",
+ "User_Type": "{{User_Form.formData.User_Type}}",
+ "Username": "{{User_Form.formData.Username}}"}
