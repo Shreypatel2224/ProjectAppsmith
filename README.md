@@ -1,5 +1,9 @@
 # ProjectAppsmith![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
+The User Interface starts with a home page (Page 1) which links to the pages of each persona. Each persona has specfic buttons that link to other pages with different functionalities depending on their user stories.
+
+
+
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
