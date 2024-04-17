@@ -1,6 +1,6 @@
 # ProjectAppsmith![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
-The User Interface starts with a home page (Page 1) which links to the pages of each persona. Each persona has specfic buttons that link to other pages with different functionalities depending on their user stories.
+The User Interface starts with a home page (Page 1) which links to the pages of each persona. Each persona has specfic buttons that link to other pages with different functionalities depending on their user stories. These pages have appropriate tables and forms which return, update, create, or delete entries as necessary. 
 
 ---------------------------------
 
