@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
-    },
-    {
       "id": "Write Compensation Package",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Add Answers to Questions",
