@@ -61,7 +61,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713400419825,
+    "columnUpdatedAt": 1713403376289,
     "originalBottomRow": 43,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -69,12 +69,12 @@
     "widgetName": "CP_Table",
     "defaultPageSize": 0,
     "columnOrder": [
+        "Position_ID",
         "BonusTotal",
         "CPID",
         "Hourly",
         "HousingTotal",
         "Perks",
-        "Position_ID",
         "RelocationTotal"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
@@ -198,7 +198,7 @@
             "allowCellWrapping": false,
             "index": 1,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "CPID",
             "columnType": "number",
             "thousandSeparator": true,
