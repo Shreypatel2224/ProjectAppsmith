@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.515625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 17,
+    "leftColumn": 15,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Select the Question to Answer It:",
     "key": "t0hbnhbg3c",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 50,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",

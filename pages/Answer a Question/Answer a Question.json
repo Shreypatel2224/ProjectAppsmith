@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Add Answers",
-    "slug": "add-answers",
+    "name": "Answer a Question",
+    "slug": "answer-a-question",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1380,
+          "bottomRow": 1320,
           "containerStyle": "none",
           "snapRows": 84,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Add Answers_Answers",
+              "id": "Answer a Question_Answers",
               "name": "Answers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -36,7 +36,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Add Answers_Questions",
+              "id": "Answer a Question_Questions",
               "name": "Questions",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -47,7 +47,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Add Answers",
+        "id": "Answer a Question",
         "deleted": false,
         "policies": [],
         "userPermissions": []

@@ -5,13 +5,13 @@
     "widgetName": "Text1",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "displayName": "Text",
-    "topRow": 29,
+    "topRow": 7,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 35,
+    "bottomRow": 14,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 13.0625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 30,
+    "leftColumn": 36,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -33,7 +33,7 @@
     "text": "Katie Brown: Northeastern Faculty\nRole: Advisor",
     "key": "3dgjrj5kiz",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 61,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "jxfux6klxc",
@@ -51,11 +51,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 27,
     "responsiveBehavior": "fill",
-    "originalTopRow": 29,
+    "originalTopRow": 7,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 31,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 35,
-    "fontSize": "1rem",
+    "originalBottomRow": 14,
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

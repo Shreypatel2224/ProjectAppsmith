@@ -13,7 +13,7 @@
         "submit"
     ],
     "topRow": 15,
-    "bottomRow": 19,
+    "bottomRow": 20,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "isDisabled": false,
     "key": "oen606ifjk",
     "isDeprecated": false,
-    "rightColumn": 45,
+    "rightColumn": 46,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "widgetId": "gjdjit9359",

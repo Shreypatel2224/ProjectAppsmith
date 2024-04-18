@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 46,
-    "bottomRow": 50,
+    "topRow": 23,
+    "bottomRow": 27,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -21,16 +21,16 @@
     "animateLoading": true,
     "parentColumnSpace": 13.0625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 10,
+    "leftColumn": 37,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "text": "Go to Reviews",
+    "text": "Write a review",
     "isDisabled": false,
     "key": "966daky9md",
     "isDeprecated": false,
-    "rightColumn": 35,
+    "rightColumn": 62,
     "isDefaultClickDisabled": true,
     "widgetId": "hmd12hs2zz",
     "minWidth": 120,
@@ -43,9 +43,11 @@
     "isLoading": false,
     "mobileTopRow": 33,
     "responsiveBehavior": "hug",
+    "originalTopRow": 23,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 31,
+    "originalBottomRow": 27,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }
