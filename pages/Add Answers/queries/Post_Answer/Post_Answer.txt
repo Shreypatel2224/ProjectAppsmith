@@ -1,0 +1,4 @@
+{"Question_ID" : "{{Question_Table.selectedRow.Question_ID}}",
+ "Date": "{{Answer_Form.formData.Date}}",
+ "Content": "{{Answer_Form.formData.Answer}}",
+ "User_ID": "{{Question_Table.selectedRow.User_ID}}"}

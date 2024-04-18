@@ -43,6 +43,10 @@
     {
       "id": "Create compensation package",
       "isDefault": false
+    },
+    {
+      "id": "Add Answers",
+      "isDefault": false
     }
   ],
   "viewMode": false,
