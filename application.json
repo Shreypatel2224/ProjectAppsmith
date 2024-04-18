@@ -47,6 +47,10 @@
     {
       "id": "Add Answers",
       "isDefault": false
+    },
+    {
+      "id": "Find answers to questions",
+      "isDefault": false
     }
   ],
   "viewMode": false,

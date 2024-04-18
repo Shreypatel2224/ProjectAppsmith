@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 12,
+    "topRow": 10,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -60,12 +60,12 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713400829581,
-    "originalBottomRow": 48,
+    "columnUpdatedAt": 1713401737670,
+    "originalBottomRow": 54,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
-    "mobileBottomRow": 39,
-    "widgetName": "Question_Table",
+    "mobileBottomRow": 37,
+    "widgetName": "Questions_Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "Content",
@@ -77,17 +77,21 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 48,
-    "columnWidthMap": {"Content": 454},
+    "bottomRow": 54,
+    "columnWidthMap": {
+        "Status": 142,
+        "Content": 344,
+        "Date": 176
+    },
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 36,
+    "mobileRightColumn": 37,
     "parentColumnSpace": 17.515625,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
         "Status": {
-            "computedValue": "{{Question_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status\"]))}}",
+            "computedValue": "{{Questions_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Status\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Status",
@@ -118,7 +122,7 @@
             "verticalAlignment": "CENTER"
         },
         "Content": {
-            "computedValue": "{{Question_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
+            "computedValue": "{{Questions_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Content",
@@ -149,7 +153,7 @@
             "verticalAlignment": "CENTER"
         },
         "Question_ID": {
-            "computedValue": "{{Question_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Question_ID\"]))}}",
+            "computedValue": "{{Questions_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Question_ID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Question_ID",
@@ -180,7 +184,7 @@
             "verticalAlignment": "CENTER"
         },
         "Title": {
-            "computedValue": "{{Question_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
+            "computedValue": "{{Questions_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Title",
@@ -211,7 +215,7 @@
             "verticalAlignment": "CENTER"
         },
         "User_ID": {
-            "computedValue": "{{Question_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
+            "computedValue": "{{Questions_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"User_ID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "User_ID",
@@ -242,7 +246,7 @@
             "verticalAlignment": "CENTER"
         },
         "Date": {
-            "computedValue": "{{Question_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Date\"]))}}",
+            "computedValue": "{{Questions_Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Date\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Date",
@@ -279,19 +283,19 @@
     "rightColumn": 62,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
-    "widgetId": "lt3aqywfvo",
+    "widgetId": "nw73bqf37m",
     "minWidth": 450,
     "tableData": "{{Questions.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 11,
+    "mobileTopRow": 9,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 12,
-    "mobileLeftColumn": 2,
+    "originalTopRow": 10,
+    "mobileLeftColumn": 3,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }
