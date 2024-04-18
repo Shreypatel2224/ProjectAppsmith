@@ -39,6 +39,10 @@
     {
       "id": "Home Page",
       "isDefault": true
+    },
+    {
+      "id": "Create compensation package",
+      "isDefault": false
     }
   ],
   "viewMode": false,
